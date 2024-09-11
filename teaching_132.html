@@ -4,6 +4,7 @@
 <meta http-equiv="Content-type" content="text/html; charset=shift_jis">
 <title>ASTR 132</title>
 <link rel="stylesheet" type="text/css" href="arpsite.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <!------------------------HTML-START----------------------->
@@ -12,39 +13,14 @@
 <body>
 	
 <!------------------------MENU----------------------->
-<a href="https://www.csus.edu/"> <img style="height: 140px;" alt="" align="left" src="pics/CSUSlogo.png"> </a>
-<img style="height: 120px;" alt="" align="right" src="pics/GalLogo.png">
-<br><br><br><br><br><br><br>
-
-<div id="navigation">
-<span  style="float:left;color: #ffffff; font-size: 30px;height: 10px;margin-left: 105px;margin-top: 10px;">  <a href="index.html" style="font-size: 30px; ">Alex Pettitt</a></span>
-<p align="center">
-  <span class="dropdown">
-    <button class="dropbtn"><a href="research.html">Research</a></button>
-    <span class="dropdown-content">
-    <a href="research_SP.html"> Galactic Morphology</a>
-    <a href="research_ISM.html">Interstellar Medium</a>
-    <a href="research_MW.html">Milky Way</a>
-    </span>
-  </span>
-  <span class="dropdown">
-    <button class="dropbtn"><a href="teaching.html">Teaching</a></button>
-    <span class="dropdown-content">
-    <a href="teaching_105.html">PHYS 105</a>
-    <a href="teaching_106.html">PHYS 106</a>
-    <a href="teaching_4b.html">ASTR 4B</a>
-    <a href="teaching_132.html">ASTR 132</a>
-	<br>
-	<a href="teaching_PHYS1.html">Physics I</a>
-    <a href="teaching_CM1.html">Classical Mechanics I</a>
-    <a href="teaching_CM2.html">Classical Mechanics II</a>
-    <a href="teaching_TSM2.html">Statistical Mechanics II</a>
-    <a href="teaching_FA.html">Fourier Analysis</a>    </span>
-  </span>
-  <a href="docs.html">Materials &amp; Publications</a>
-</p>
+<div id="nav-placeholder">
 </div>
 
+<script>
+$(function(){
+  $("#nav-placeholder").load("navi.html");
+});
+</script>
 
 
 
@@ -62,7 +38,7 @@
 <div id="Content">
 
 
-<img style="height: 230px;margin-left: 0em;margin-top: 2em;" align="right" src="pics/teach-132im.png" border="0" title="A pair of coupled oscillators">
+<img style="height: 230px;margin-left: 0em;margin-top: 2em;" alt="course image" align="right" src="pics/teach-132im.png" border="0" title="A pair of coupled oscillators">
 <h3>Syllabus</h3>
 <p>
 ASTR132 is kind of the big sibling of ASTR4B, both cover stars and galaxies. This class being upper divison, the depth we dive into topics will be greater, and there will be tougher concepts to wrap our heads around. That said, this isn't an astrophysics class, and while there will be the odd bit of maths, most of the class is graded on written assignments.
@@ -73,12 +49,12 @@ ASTR132 is kind of the big sibling of ASTR4B, both cover stars and galaxies. Thi
 	This class will meet three times a week over a the Fall semester. We approximately follow the textbook <a href="https://www.cambridge.org/highereducation/books/astronomy-a-physical-perspective/9F769B29B99992A4BC90356484394726#overview"> Astronomy: a Phsyical Perspective</a> by Kutner, though won't go into as much mathematical detail.
 </p>
 <p>
-A copy of the most recent course syllabus can be found <a href="materials/132_2233_Pettitt.pdf">here</a>.
+A copy of the most recent course syllabus can be found <a href="materials/ASTR132_Pettitt.pdf">here</a>.
 	</p>
 
 
 <h3>Class slides</h3>
-<p> PDFs of the most recently completd semester's lecture slides can be found in the ASTR132 folder <a href="https://mysacstate-my.sharepoint.com/:f:/g/personal/pettitt_csus_edu/Eu06uiioH_tIrc7udxKqE9QBNNBxDuUGW-u0JhNfnKbc2w?e=hJfuCR">at this url.</a>
+<p> PDFs of the most recently completd semester's lecture slides can be found in the ASTR132 folder <a href="https://mysacstate-my.sharepoint.com/:f:/g/personal/pettitt_csus_edu/Eu06uiioH_tIrc7udxKqE9QBNNBxDuUGW-u0JhNfnKbc2w?e=hJfuCR">at this url.</a></p>
 
 <p>
 Part A1: Radiation
@@ -133,9 +109,11 @@ Part D2: The Universe
 <address></address>
  
 <div id="footer">
-<span style="float:left;">Last Updated: August 2023</span>
+<span style="float:left;">Last Updated: September 2024</span>
 <span style="float:right;">Please feel free to <a href="mailto:pettitt@csus.edu?Subject=Oh%20hai%20there" target="_top">email me!</a></span>
+</div>
 
+</div>	
 </body>
 </html>
 
