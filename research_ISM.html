@@ -2,8 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=shift_jis">
-<title>Alex Pettitt: The interstellar medium &amp; Publications</title>
+<title>Alex Pettitt: The interstellar medium</title>
 <link rel="stylesheet" type="text/css" href="arpsite.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <!------------------------HTML-START----------------------->
@@ -12,40 +13,14 @@
 <body>
 	
 <!------------------------MENU----------------------->
-<a href="https://www.csus.edu/"> <img style="height: 140px;" alt="" align="left" src="pics/CSUSlogo.png"> </a>
-<img style="height: 120px;" alt="" align="right" src="pics/GalLogo.png">
-<br><br><br><br><br><br><br>
-
-<div id="navigation">
-<span  style="float:left;color: #ffffff; font-size: 30px;height: 10px;margin-left: 105px;margin-top: 10px;">  <a href="index.html" style="font-size: 30px; ">Alex Pettitt</a></span>
-<p align="center">
-  <span class="dropdown">
-    <button class="dropbtn"><a href="research.html">Research</a></button>
-    <span class="dropdown-content">
-    <a href="research_SP.html"> Galactic Morphology</a>
-    <a href="research_ISM.html">Interstellar Medium</a>
-    <a href="research_MW.html">Milky Way</a>
-    </span>
-  </span>
-  <span class="dropdown">
-    <button class="dropbtn"><a href="teaching.html">Teaching</a></button>
-    <span class="dropdown-content">
-    <a href="teaching_105.html">PHYS 105</a>
-    <a href="teaching_106.html">PHYS 106</a>
-    <a href="teaching_4b.html">ASTR 4B</a>
-    <a href="teaching_132.html">ASTR 132</a>
-	<br>
-	<a href="teaching_PHYS1.html">Physics I</a>
-    <a href="teaching_CM1.html">Classical Mechanics I</a>
-    <a href="teaching_CM2.html">Classical Mechanics II</a>
-    <a href="teaching_TSM2.html">Statistical Mechanics II</a>
-    <a href="teaching_FA.html">Fourier Analysis</a>    </span>
-  </span>
-  <a href="docs.html">Materials &amp; Publications</a>
-</p>
+<div id="nav-placeholder">
 </div>
 
-
+<script>
+$(function(){
+  $("#nav-placeholder").load("navi.html");
+});
+</script>
 
 
 <!------------------------HEADER BOX----------------------->
@@ -61,7 +36,7 @@
 </div>				
 <div id="Content">
 	
-<img style="height: 240px;margin-left: 0em;margin-top: 2em;" align="right" src="pics/res-bubble.gif" border="0">
+<img style="height: 240px;margin-left: 0em;margin-top: 2em;" alt="" align="right" src="pics/res-bubble.gif" border="0">
 
 
 
@@ -120,14 +95,13 @@ As gas in a galaxy contracts, it is believed it takes the form of small pockets 
 <div align="center">
 <iframe width="500" height="500" src="https://www.youtube.com/embed/hl46O8gLO74" frameborder="0" allowfullscreen></iframe>
 </div>
-</p>
 	
 <p>
 	Below is a picture showing the evolution of two clouds within a galaxy simulation. The clouds are coloured orange and blue, with black stars indicating their centre of mass.
 	They fly into each other in the spiral arm, altering their structure as they do so. Eventually they dissipate as they leave the high gas concentrations in the spiral arms, some 20 million years after they collide.
 </p>
 <div align="center">
-<img style="height: 400px;margin-left: 0.0em;margin-top: 0em;margin-bottom: -2em;" align="bottom" src="pics/res-gmcs.jpg" border="0">
+<img style="height: 400px;margin-left: 0.0em;margin-top: 0em;margin-bottom: -2em;" alt="" align="bottom" src="pics/res-gmcs.jpg" border="0">
 </div>
 
 
@@ -144,7 +118,7 @@ As gas in a galaxy contracts, it is believed it takes the form of small pockets 
 	(middle, blue gas moves together and red moves apart), which together influence where stars are formed (right, blue stars are youngest, red oldest).
 </p>
 <div align="center">
-<img style="height: 240px;margin-left: 0.0em;margin-top: 0em;margin-bottom: 0em;" align="bottom" src="pics/res-sfmap.png" border="0">
+<img style="height: 240px;margin-left: 0.0em;margin-top: 0em;margin-bottom: 0em;" alt="" align="bottom" src="pics/res-sfmap.png" border="0">
 </div>
 
 <p>&nbsp;</p>	
@@ -153,8 +127,10 @@ As gas in a galaxy contracts, it is believed it takes the form of small pockets 
 <address></address>
  
 <div id="footer">
-<span style="float:left;">Last Updated: August 2023</span>
+<span style="float:left;">Last Updated: September 2024</span>
 <span style="float:right;">Please feel free to <a href="mailto:pettitt@csus.edu?Subject=Oh%20hai%20there" target="_top">email me!</a></span>
+</div>
+
 </div>
 </body>
 </html>
