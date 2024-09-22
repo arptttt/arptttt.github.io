@@ -4,6 +4,7 @@
 <meta http-equiv="Content-type" content="text/html; charset=shift_jis">
 <title>Physics 1</title>
 <link rel="stylesheet" type="text/css" href="arpsite.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <!------------------------HTML-START----------------------->
@@ -12,40 +13,14 @@
 <body>
 	
 <!------------------------MENU----------------------->
-<a href="https://www.csus.edu/"> <img style="height: 140px;" alt="" align="left" src="pics/CSUSlogo.png"> </a>
-<img style="height: 120px;" alt="" align="right" src="pics/GalLogo.png">
-<br><br><br><br><br><br><br>
-
-<div id="navigation">
-<span  style="float:left;color: #ffffff; font-size: 30px;height: 10px;margin-left: 105px;margin-top: 10px;">  <a href="index.html" style="font-size: 30px; ">Alex Pettitt</a></span>
-<p align="center">
-  <span class="dropdown">
-    <button class="dropbtn"><a href="research.html">Research</a></button>
-    <span class="dropdown-content">
-    <a href="research_SP.html"> Galactic Morphology</a>
-    <a href="research_ISM.html">Interstellar Medium</a>
-    <a href="research_MW.html">Milky Way</a>
-    </span>
-  </span>
-  <span class="dropdown">
-    <button class="dropbtn"><a href="teaching.html">Teaching</a></button>
-    <span class="dropdown-content">
-    <a href="teaching_105.html">PHYS 105</a>
-    <a href="teaching_106.html">PHYS 106</a>
-    <a href="teaching_4b.html">ASTR 4B</a>
-    <a href="teaching_132.html">ASTR 132</a>
-	<br>
-	<a href="teaching_PHYS1.html">Physics I</a>
-    <a href="teaching_CM1.html">Classical Mechanics I</a>
-    <a href="teaching_CM2.html">Classical Mechanics II</a>
-    <a href="teaching_TSM2.html">Statistical Mechanics II</a>
-    <a href="teaching_FA.html">Fourier Analysis</a>    </span>
-  </span>
-  <a href="docs.html">Materials &amp; Publications</a>
-</p>
+<div id="nav-placeholder">
 </div>
 
-
+<script>
+$(function(){
+  $("#nav-placeholder").load("navi.html");
+});
+</script>
 
 
 <!------------------------HEADER BOX----------------------->
@@ -62,7 +37,7 @@
 
 <div id="Content">
 
-<img style="height: 240px;margin-left: 0em;margin-top: 2em;" align="right" src="pics/teach-pend.gif" border="0" title="Kinetic and potential energy balance for a pendulum">
+<img style="height: 240px;margin-left: 0em;margin-top: 2em;" alt=""  align="right" src="pics/teach-pend.gif" border="0" title="Kinetic and potential energy balance for a pendulum">
 <h3>Syllabus</h3>
 <p>
 Physics aims to understand the natural world and universe around us, and how it works. In this course we will cover the foundational principals that are invaluable to any physicist.
@@ -72,7 +47,7 @@ By the end of the course students should be able to calculate if a roller-coaste
 </p>
 
 <h3>Details</h3>
-<p> Physics I would to take place twice a week over a half a semester. We followed the textbook <a href="https://www.pearson.com/se/Nordics-Higher-Education/subject-catalogue/Physics/Wolfson-Essential-University-Physics-Volume-1.html"> Essential University Physics</a> by Wolfson.
+<p> Physics I would to take place twice a week over a half a semester. We followed the textbook <a href="https://www.pearson.com/se/Nordics-Higher-Education/subject-catalogue/Physics/Wolfson-Essential-University-Physics-Volume-1.html"> Essential University Physics</a> by Wolfson.</p>
 
 	<!--<p>Physics I (ID: 002599) takes place in the Fall semester, and twice a week. Lectures are in held in room E243 in the IAHE
 (Institute for Advancement of Higher Education) building from 10:30 - 12:00 (2<sup>nd</sup> period) Friday and 13:00 - 14:30 (3<sup>rd</sup> period) Tuesday. </p>
@@ -204,8 +179,11 @@ Here are some websites you may find useful:
 <address></address>
 
 <div id="footer">
-<span style="float:left;">Last Updated: August 2023</span>
+<span style="float:left;">Last Updated: September 2024</span>
 <span style="float:right;">Please feel free to <a href="mailto:pettitt@csus.edu?Subject=Oh%20hai%20there" target="_top">email me!</a></span>
+</div>
+
+</div>
 
 </body>
 </html>
